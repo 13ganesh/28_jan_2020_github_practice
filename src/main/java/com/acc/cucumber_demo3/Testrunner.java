@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"json:target/cucumber.json"}
-		features = "Feature99"
+		,features = "Feature99"
 		,glue = "step_defination99"
 		//,tags = {"@SmokeTest"}
 		//,tags = {"@RegressionTest"}
